@@ -1,0 +1,19 @@
+.shop-container{
+    display: flex;
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(65, 61, 63, 0.3), rgba(75, 72, 74, 0.3)), url(../../travel-guru/Rectangle1.png);
+    background-size: cover;
+    width: 100%;
+}
+.cart{
+    width: 35%;
+    background-color: aliceblue;
+}
+.cart p{
+    font-weight: bold;
+    font-size:25px;
+}
+.product{
+    width: 60%;
+    display: flex;
+}

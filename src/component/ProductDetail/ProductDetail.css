@@ -1,0 +1,22 @@
+.single-product{
+    display: flex;
+}
+.image{
+    width: 70%;
+    padding: 60px;
+}
+.details{
+    border-right: 2px solid gray;
+}
+
+.image, .image img{
+    margin:0 auto;
+    align-items:center;
+}
+.form-details{
+    background-color: rgb(233, 233, 104);
+}
+.form-details TextField{
+    display: flex;
+    
+}

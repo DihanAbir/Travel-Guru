@@ -1,0 +1,19 @@
+.header ul li{
+margin: 5px;
+}
+.header{
+background-color: salmon;
+
+}
+
+.header ul li a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+.header ul{
+    list-style: none;
+    display: flex;
+}

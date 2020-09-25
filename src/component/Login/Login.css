@@ -1,0 +1,27 @@
+
+.login{
+    margin-left:40%
+}
+
+.form input{
+    border-radius: 10px;
+    margin:10px;
+    padding:10px 15px;
+}
+
+.btn{
+    background-color: salmon;
+}
+.social-login button, .submit{
+    background-color: rgb(240, 220, 42);
+    border: none;
+    border-radius: 10px;
+    padding:5px 10px;
+    margin:4px;
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+    transition: 0.4s ease-in-out;
+}
+.social-login button:hover, .submit:hover{
+    background-color: rgb(240, 82, 64);
+}
