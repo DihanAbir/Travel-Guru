@@ -7,12 +7,11 @@ const Header = () => {
     return (
         <div className="header">
             <ul>
-                <li><a href="/home">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/shop">Shop</a></li>
-                <li><a href="/review">Review</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/booked">Booked</a></li>
+                <li><Link to="/home">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/review">Review</Link></li>
+                <li><Link to="/login">Login</Link></li>
+                <li><Link to="/booked">Booked</Link></li>
                 {/* <li><Link  to="/booked">Book</Link></li> */}
             </ul>
             

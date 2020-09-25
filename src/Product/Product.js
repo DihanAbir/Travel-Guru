@@ -8,7 +8,7 @@ const Product = (props) => {
     return (
         <div className="product-container" onClick={() => props.handler2(props.product)}>
             <img src={img} alt=""/>
-            <button className="btn btn-primary m-3 p-3" > <Link to={"/review/"+key}>preview</Link> </button>
+            <p  > <Link className="btn btn-primary m-3 p-1" to={"/review/"+key}>preview</Link> </p>
 
             <hr></hr>
 
